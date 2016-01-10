@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var oauth:TencentOAuth? = nil
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -29,7 +31,6 @@ class ViewController: UIViewController {
         print("WeChat Version = \(WXApi.getApiVersion())")
         print("WeChat Version = \(WeiboSDK.getSDKVersion())")
         
-        var oauth:TencentOAuth? = nil
     }
     
 }

@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		11738ECF9A9F1A24AEB80157 /* libPods-PodDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC3FE70E52697AC42868613 /* libPods-PodDemo.a */; };
+		D08CD5371C42C5D700C6E59A /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D08CD5321C42C5D700C6E59A /* libWeChatSDK.a */; };
+		D08CD5381C42C5D700C6E59A /* read_me.txt in Resources */ = {isa = PBXBuildFile; fileRef = D08CD5331C42C5D700C6E59A /* read_me.txt */; };
 		D09840E71C424ABF00EB3BB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09840E61C424ABF00EB3BB0 /* AppDelegate.swift */; };
 		D09840E91C424ABF00EB3BB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09840E81C424ABF00EB3BB0 /* ViewController.swift */; };
 		D09840EC1C424ABF00EB3BB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D09840EA1C424ABF00EB3BB0 /* Main.storyboard */; };
@@ -16,8 +17,7 @@
 		D09840FC1C424ABF00EB3BB0 /* PodDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09840FB1C424ABF00EB3BB0 /* PodDemoTests.swift */; };
 		D09841071C424ABF00EB3BB0 /* PodDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09841061C424ABF00EB3BB0 /* PodDemoUITests.swift */; };
 		D09841191C42572000EB3BB0 /* ObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = D09841181C42572000EB3BB0 /* ObjC.m */; };
-		D09841201C42687600EB3BB0 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D098411E1C4267AC00EB3BB0 /* libstdc++.tbd */; };
-		D09841241C426A6800EB3BB0 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D09841231C426A6800EB3BB0 /* libc++.tbd */; };
+		E21F69F9C6E691A51A724E7B /* libPods-PodDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C11AD2DA8D5BD299D35F04CB /* libPods-PodDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +40,19 @@
 /* Begin PBXFileReference section */
 		0444FE3AE49ED701B26C178B /* Pods-PodDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PodDemo/Pods-PodDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		87E50A0832B165B1029EA27F /* Pods-PodDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PodDemo/Pods-PodDemo.release.xcconfig"; sourceTree = "<group>"; };
-		8DC3FE70E52697AC42868613 /* libPods-PodDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PodDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C11AD2DA8D5BD299D35F04CB /* libPods-PodDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PodDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D04B9D6E1C42BE3100F4CF19 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D04B9D701C42BE3900F4CF19 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D04B9D721C42BE4F00F4CF19 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		D04B9D741C42BE5800F4CF19 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		D08CD5321C42C5D700C6E59A /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		D08CD5331C42C5D700C6E59A /* read_me.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = read_me.txt; sourceTree = "<group>"; };
+		D08CD5341C42C5D700C6E59A /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		D08CD5351C42C5D700C6E59A /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		D08CD5361C42C5D700C6E59A /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		D08CD53A1C42C6DD00C6E59A /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
+		D08CD53D1C42C70000C6E59A /* libstdc++.6.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.tbd"; path = "usr/lib/libstdc++.6.tbd"; sourceTree = SDKROOT; };
+		D08CD5401C42C88300C6E59A /* libc++.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.1.dylib"; path = "../../../../../usr/lib/libc++.1.dylib"; sourceTree = "<group>"; };
 		D09840E31C424ABF00EB3BB0 /* PodDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PodDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D09840E61C424ABF00EB3BB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D09840E81C424ABF00EB3BB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,9 +77,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D09841241C426A6800EB3BB0 /* libc++.tbd in Frameworks */,
-				D09841201C42687600EB3BB0 /* libstdc++.tbd in Frameworks */,
-				11738ECF9A9F1A24AEB80157 /* libPods-PodDemo.a in Frameworks */,
+				D08CD5371C42C5D700C6E59A /* libWeChatSDK.a in Frameworks */,
+				E21F69F9C6E691A51A724E7B /* libPods-PodDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,9 +108,30 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		D08CD5301C42C5D700C6E59A /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D08CD5311C42C5D700C6E59A /* WeChatSDK */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		D08CD5311C42C5D700C6E59A /* WeChatSDK */ = {
+			isa = PBXGroup;
+			children = (
+				D08CD5321C42C5D700C6E59A /* libWeChatSDK.a */,
+				D08CD5331C42C5D700C6E59A /* read_me.txt */,
+				D08CD5341C42C5D700C6E59A /* WechatAuthSDK.h */,
+				D08CD5351C42C5D700C6E59A /* WXApi.h */,
+				D08CD5361C42C5D700C6E59A /* WXApiObject.h */,
+			);
+			path = WeChatSDK;
+			sourceTree = "<group>";
+		};
 		D09840DA1C424ABF00EB3BB0 = {
 			isa = PBXGroup;
 			children = (
+				D08CD5301C42C5D700C6E59A /* Sources */,
 				D09840E51C424ABF00EB3BB0 /* PodDemo */,
 				D09840FA1C424ABF00EB3BB0 /* PodDemoTests */,
 				D09841051C424ABF00EB3BB0 /* PodDemoUITests */,
@@ -155,9 +187,16 @@
 		E2ABE08699D65875D026089B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D08CD5401C42C88300C6E59A /* libc++.1.dylib */,
+				D08CD53D1C42C70000C6E59A /* libstdc++.6.tbd */,
+				D08CD53A1C42C6DD00C6E59A /* libc++.1.tbd */,
+				D04B9D741C42BE5800F4CF19 /* ImageIO.framework */,
+				D04B9D721C42BE4F00F4CF19 /* CoreImage.framework */,
+				D04B9D701C42BE3900F4CF19 /* Foundation.framework */,
+				D04B9D6E1C42BE3100F4CF19 /* UIKit.framework */,
 				D09841231C426A6800EB3BB0 /* libc++.tbd */,
 				D098411E1C4267AC00EB3BB0 /* libstdc++.tbd */,
-				8DC3FE70E52697AC42868613 /* libPods-PodDemo.a */,
+				C11AD2DA8D5BD299D35F04CB /* libPods-PodDemo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -271,6 +310,7 @@
 			files = (
 				D09840F11C424ABF00EB3BB0 /* LaunchScreen.storyboard in Resources */,
 				D09840EE1C424ABF00EB3BB0 /* Assets.xcassets in Resources */,
+				D08CD5381C42C5D700C6E59A /* read_me.txt in Resources */,
 				D09840EC1C424ABF00EB3BB0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -490,7 +530,12 @@
 				CLANG_ENABLE_MODULES = YES;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = PodDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Sources/WeChatSDK",
+				);
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-isystem",
@@ -547,7 +592,12 @@
 				CLANG_ENABLE_MODULES = YES;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = PodDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Sources/WeChatSDK",
+				);
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-isystem",
