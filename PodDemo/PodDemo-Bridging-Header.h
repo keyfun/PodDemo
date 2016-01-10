@@ -3,8 +3,8 @@
 //
 
 #import "AFNetworking.h"
-//#import "WeiboSDK.h"
-//#import "WeiboUser.h"
+#import "WeiboSDK.h"
+#import "WeiboUser.h"
 #import "WXApi.h"
 #import <TencentOpenAPI/TencentOAuth.h>
 #import <TencentOpenAPI/TencentOAuthObject.h>

@@ -24,7 +24,12 @@ class ViewController: UIViewController {
         super.viewDidAppear(animated)
         print("viewDidAppear")
         
-        let manager = AFHTTPSessionManager()
+        _ = AFHTTPSessionManager()
+        
+        print("WeChat Version = \(WXApi.getApiVersion())")
+        print("WeChat Version = \(WeiboSDK.getSDKVersion())")
+        
+        var oauth:TencentOAuth? = nil
     }
     
 }

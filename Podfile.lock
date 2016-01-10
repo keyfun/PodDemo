@@ -14,24 +14,39 @@ PODS:
   - AFNetworking/Serialization (3.0.4)
   - AFNetworking/UIKit (3.0.4):
     - AFNetworking/NSURLSession
-  - testpod (0.0.1):
-    - AFNetworking (~> 3.0)
+  - TencentQQSDK (1.9.5)
+  - WeChatSDK (1.6.2)
+  - WeiboSDK (3.1.3)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.0)
-  - testpod (from `https://github.com/keyfun/testpod.git`)
+  - TencentQQSDK (from `https://github.com/keyfun/qq_ios_sdk.git`)
+  - WeChatSDK (from `https://github.com/keyfun/wechat_ios_sdk.git`)
+  - WeiboSDK (from `https://github.com/sinaweibosdk/weibo_ios_sdk.git`)
 
 EXTERNAL SOURCES:
-  testpod:
-    :git: https://github.com/keyfun/testpod.git
+  TencentQQSDK:
+    :git: https://github.com/keyfun/qq_ios_sdk.git
+  WeChatSDK:
+    :git: https://github.com/keyfun/wechat_ios_sdk.git
+  WeiboSDK:
+    :git: https://github.com/sinaweibosdk/weibo_ios_sdk.git
 
 CHECKOUT OPTIONS:
-  testpod:
-    :commit: 81b8d20a5ed6e42de0f1312605b57126aa293b74
-    :git: https://github.com/keyfun/testpod.git
+  TencentQQSDK:
+    :commit: 60f60174f4c0d80d8d2661ef8af6340d2c0b02af
+    :git: https://github.com/keyfun/qq_ios_sdk.git
+  WeChatSDK:
+    :commit: 900688be8295d27896be60e83c2d94c63956cade
+    :git: https://github.com/keyfun/wechat_ios_sdk.git
+  WeiboSDK:
+    :commit: 61e4bf36084b3fda1f73e4099e6c29bf8758e335
+    :git: https://github.com/sinaweibosdk/weibo_ios_sdk.git
 
 SPEC CHECKSUMS:
   AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
-  testpod: bbdf8abdd0b20fd7d99448d191ccc2011caa96f1
+  TencentQQSDK: 2df0482d500d61ae86876c1d3369cbfe22d9a46e
+  WeChatSDK: 6874986698c0e6c48a5835e7be2f83825cc1604a
+  WeiboSDK: 5f2a707c4569a64f4641f4171acd712016f24342
 
 COCOAPODS: 0.39.0
