@@ -15,4 +15,3 @@ end
 target 'PodDemoUITests' do
 
 end
-
