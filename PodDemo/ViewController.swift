@@ -29,7 +29,7 @@ class ViewController: UIViewController {
         _ = AFHTTPSessionManager()
         
         print("WeChat Version = \(WXApi.getApiVersion())")
-        print("WeChat Version = \(WeiboSDK.getSDKVersion())")
+        print("Weibo Version = \(WeiboSDK.getSDKVersion())")
         
     }
     

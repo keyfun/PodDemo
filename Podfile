@@ -6,7 +6,7 @@
 target 'PodDemo' do
 pod 'AFNetworking', '~> 3.0'
 pod 'TencentQQSDK', :git => 'https://github.com/keyfun/qq_ios_sdk.git'
-#pod 'WeChatSDK', :git => 'https://github.com/keyfun/wechat_ios_sdk.git'
+pod 'WeChatSDK', :git => 'https://github.com/keyfun/wechat_ios_sdk.git'
 pod 'WeiboSDK', :git => 'https://github.com/sinaweibosdk/weibo_ios_sdk.git'
 #pod 'LXMThirdLoginManager', '~> 1.0.0'
 #pod 'testpod', :git => 'https://github.com/keyfun/testpod.git'

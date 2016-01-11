@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D08CD5371C42C5D700C6E59A /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D08CD5321C42C5D700C6E59A /* libWeChatSDK.a */; };
-		D08CD5381C42C5D700C6E59A /* read_me.txt in Resources */ = {isa = PBXBuildFile; fileRef = D08CD5331C42C5D700C6E59A /* read_me.txt */; };
 		D09840E71C424ABF00EB3BB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09840E61C424ABF00EB3BB0 /* AppDelegate.swift */; };
 		D09840E91C424ABF00EB3BB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09840E81C424ABF00EB3BB0 /* ViewController.swift */; };
 		D09840EC1C424ABF00EB3BB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D09840EA1C424ABF00EB3BB0 /* Main.storyboard */; };
@@ -45,11 +43,6 @@
 		D04B9D701C42BE3900F4CF19 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D04B9D721C42BE4F00F4CF19 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		D04B9D741C42BE5800F4CF19 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
-		D08CD5321C42C5D700C6E59A /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
-		D08CD5331C42C5D700C6E59A /* read_me.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = read_me.txt; sourceTree = "<group>"; };
-		D08CD5341C42C5D700C6E59A /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
-		D08CD5351C42C5D700C6E59A /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
-		D08CD5361C42C5D700C6E59A /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
 		D08CD53A1C42C6DD00C6E59A /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
 		D08CD53D1C42C70000C6E59A /* libstdc++.6.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.tbd"; path = "usr/lib/libstdc++.6.tbd"; sourceTree = SDKROOT; };
 		D08CD5401C42C88300C6E59A /* libc++.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.1.dylib"; path = "../../../../../usr/lib/libc++.1.dylib"; sourceTree = "<group>"; };
@@ -77,7 +70,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D08CD5371C42C5D700C6E59A /* libWeChatSDK.a in Frameworks */,
 				E21F69F9C6E691A51A724E7B /* libPods-PodDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -108,30 +100,9 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		D08CD5301C42C5D700C6E59A /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				D08CD5311C42C5D700C6E59A /* WeChatSDK */,
-			);
-			path = Sources;
-			sourceTree = "<group>";
-		};
-		D08CD5311C42C5D700C6E59A /* WeChatSDK */ = {
-			isa = PBXGroup;
-			children = (
-				D08CD5321C42C5D700C6E59A /* libWeChatSDK.a */,
-				D08CD5331C42C5D700C6E59A /* read_me.txt */,
-				D08CD5341C42C5D700C6E59A /* WechatAuthSDK.h */,
-				D08CD5351C42C5D700C6E59A /* WXApi.h */,
-				D08CD5361C42C5D700C6E59A /* WXApiObject.h */,
-			);
-			path = WeChatSDK;
-			sourceTree = "<group>";
-		};
 		D09840DA1C424ABF00EB3BB0 = {
 			isa = PBXGroup;
 			children = (
-				D08CD5301C42C5D700C6E59A /* Sources */,
 				D09840E51C424ABF00EB3BB0 /* PodDemo */,
 				D09840FA1C424ABF00EB3BB0 /* PodDemoTests */,
 				D09841051C424ABF00EB3BB0 /* PodDemoUITests */,
@@ -310,7 +281,6 @@
 			files = (
 				D09840F11C424ABF00EB3BB0 /* LaunchScreen.storyboard in Resources */,
 				D09840EE1C424ABF00EB3BB0 /* Assets.xcassets in Resources */,
-				D08CD5381C42C5D700C6E59A /* read_me.txt in Resources */,
 				D09840EC1C424ABF00EB3BB0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
